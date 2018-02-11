@@ -3,6 +3,7 @@ class Book(object):
     def __init__(self, title=None):
         self.title = title
         self.word_counts = {}
+        # other properties like author, publisher, etc
 
     def __repr__(self):
         return ('<Book "{}" | Words counted: {}>'
